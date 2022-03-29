@@ -1,0 +1,25 @@
+header{
+    /* background-color: aqua; */
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.link-container{
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.link-container a{
+    text-shadow: 2px 2px 2px #000;
+    padding: 8px 5px;
+    transition: all .5s;
+}
+.link-container a:hover{
+    background-color: var(--accent-color);
+}
