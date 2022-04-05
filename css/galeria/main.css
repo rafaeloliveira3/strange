@@ -1,0 +1,28 @@
+main{
+    flex-grow: 1;
+    height: 20vh;
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 1;
+    border: 5px solid #fff;
+    border-radius: 45px;
+}
+.content-container h1{
+    font-size: 5rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.images{
+    height: 50vh;
+    width: 165vh;
+    background-color: aqua;
+}
