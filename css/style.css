@@ -2,6 +2,11 @@
     --accent-color: #FF031A;
 }
 
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+
 body{
     height: 100vh;
     background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000), 
@@ -13,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
+    animation: zoom 1.5s;
 }
 
 @media (max-width: 768px){
@@ -22,5 +28,14 @@ body{
         background-image: url(../img/background.png);
         background-blend-mode: darken;
         background-position: 87%;
+    }
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(3);
+    }
+    100%{
+        transform: scale(1);
     }
 }
