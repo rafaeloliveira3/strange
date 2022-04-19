@@ -15,14 +15,30 @@ main{
     flex-grow: 1;
     border: 5px solid #fff;
     border-radius: 45px;
+    background-color: #0006;
 }
 .content-container h1{
     font-size: 5rem;
     font-weight: 500;
     padding-bottom: 30px;
 }
-.images{
-    height: 50vh;
+.images-container{
+    height: 450px;
     width: 165vh;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.images{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.images img{
+    transition: all .2s;
+}
+.images img:hover{
+    border-left: 3px solid var(--accent-color);
+    border-bottom: 3px solid var(--accent-color);
 }

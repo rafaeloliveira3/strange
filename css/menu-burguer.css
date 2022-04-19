@@ -28,7 +28,6 @@
 .menu-burguer-container.show .menu-burguer{
     background-color: transparent;
 }
-
 .menu-burguer-container.show .menu-burguer::before{
     transform: rotate(45deg);
 }

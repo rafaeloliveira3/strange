@@ -1,0 +1,21 @@
+:root{
+    --accent-color: #FF031A;
+}
+
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    background: #000a, url(../../img/bg-videos.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px;
+    animation: zoom 1.5s;
+}

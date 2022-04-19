@@ -6,7 +6,6 @@ body, html{
     position: relative;
     overflow: hidden;
 }
-
 body{
     height: 100vh;
     background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000), 

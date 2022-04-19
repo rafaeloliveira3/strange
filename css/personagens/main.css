@@ -26,33 +26,43 @@ main{
 
 .content-container{
     display: flex;
-    background-color: aqua;
     gap: 180px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
-.content-container a img{
-    display: flex;
-    border: solid 5px #fff;
-    height: max-content;
-    border-radius: 24px;
+.content-container img{
+    height: 245px;
     background-color: #000a;
+    border: solid 5px #fff;
+    border-radius: 24px;
 }
-
-.names-container{
-    background-color: salmon;
+.card img{
+    transition: all .5s;
+}
+.doctor-container, .wong-container, .wanda-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: #fff;
     text-align: center;
     justify-content: center;
-    gap: 300px;
 }
-.names-container p{
+
+.card img:hover{
+    height: 280px;
+    background-color: #a00a;
+    border: solid 5px #FF031A;
+    border-radius: 0px;
+}
+.card img:active{
+    transition: all .05s;
+    height: 245px;
+}
+
+.name-container p{
     font-weight: 200;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
-.names-container h3{
+.name-container h3{
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
