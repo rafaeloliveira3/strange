@@ -9,7 +9,7 @@ body, html{
 
 body{
     height: 100vh;
-    background: #000a, url(../../img/bg-videos.png);
+    background: url(../../img/bg-videos.png);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
