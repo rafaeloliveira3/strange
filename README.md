@@ -6,8 +6,7 @@
 
 ![](./img/HOME.png)
 
-<img src="./img/HOME-PHONE.png" width="200px"> 
-<img src="./img/HOME-MENU.png" width="200px"> 
+<img src="./img/HOME-PHONE.png" width="200px"> <img src="./img/HOME-MENU.png" width="200px"> 
 
 ---
 
