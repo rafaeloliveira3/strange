@@ -1,7 +1,6 @@
 :root{
     --accent-color: #FF031A;
 }
-
 body{
     height: 100vh;
     background-image: url(../../img/bg-galeria.png);
