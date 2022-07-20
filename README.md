@@ -29,6 +29,9 @@ Landing Pages são páginas com foco principal na conversão de visitantes, assi
 
 ---
 
+Todo o projeto foi feito e construído usando o Visual Studio Code como principal ferramenta de codificação.
+
+---
 ## Links
 
 * [Resultado Final](https://rafaeloliveira3.github.io/strange/)
